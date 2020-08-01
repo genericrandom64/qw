@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
-project(qw)
+project(c_wq C)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_C_STANDARD 99)
 
-add_executable(qw main.cpp)
+add_executable(c_wq main.c)
